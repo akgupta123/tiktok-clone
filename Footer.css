@@ -1,0 +1,44 @@
+.footer_css{
+    position: relative;
+    bottom: 200px;
+    color: white;
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.video_txt > h3{
+    padding-bottom: 20px;
+}.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    height: 30px;
+    margin-left: 280px;
+    margin-top:120px;
+    -webkit-animation: spin 5s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  .ticker {
+      padding-top: 7px;
+      font-size: 8px;
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+  }
+  .ticker_icon{
+    position: absolute;
+    margin-top: 1px;
+}
+.ticker >.ticker{
+    height: fit-content;
+    margin-left:30px ;
+    width: 60px;
+}
+.loop{
+    margin:auto;
+}
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }

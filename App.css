@@ -1,0 +1,21 @@
+html{
+    scroll-snap-type: y mandatory;
+}
+.App{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.video-tik{
+    position: relative;
+    height: 800px;
+    overflow: scroll;
+    width: 80%;
+    max-width: 500px;
+    scroll-snap-type: y mandatory;
+}
+.video-tik::-webkit-scrollbar{
+display: none;
+}
